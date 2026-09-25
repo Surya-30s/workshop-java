@@ -22,6 +22,7 @@ public class demo1
 	        String dqry = "delete from student where id = 102";
 			int rs = stmt.executeUpdate(dqry);
 	        System.out.println(rs);
+			 System.out.println("hi");;
 		 }
          catch (ClassNotFoundException | SQLException e)
          {
