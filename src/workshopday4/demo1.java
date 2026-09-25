@@ -19,26 +19,6 @@ public class demo1
 			System.out.println("connection established succesfully");
 			Statement stmt = con.createStatement();
 			System.out.println("flatform created succesfully");
-//			String sqry = "insert into studentdb.student values(105, 'darshan', 'darshan431@gmail.com', 6367863648 ,'dachucode')";
-//		    stmt.execute(sqry);
-//		    System.out.println(sqry);
-//		    
-//		    String qery = "Select * from student";
-//		    ResultSet rs = stmt.executeQuery(qery);
-//		    
-//		    while(rs.next())
-//		    {
-//		    	System.out.println(rs.getInt(1));
-//		    	System.out.println(rs.getString(2));
-//		    	System.out.println(rs.getString(3));
-//		    	System.out.println(rs.getLong(4));
-//		    	System.out.println(rs.getString(5));
-//		    }
-		    
-//			String uqry = "update student set phno = 9019273033 where id = 101";
-//			int rs = stmt.executeUpdate(uqry);
-//	        System.out.println(rs);
-//        	 
 	        String dqry = "delete from student where id = 102";
 			int rs = stmt.executeUpdate(dqry);
 	        System.out.println(rs);
